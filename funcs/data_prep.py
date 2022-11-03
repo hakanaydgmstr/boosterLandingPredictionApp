@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 from sklearn.neighbors import LocalOutlierFactor
@@ -128,7 +127,6 @@ def  high_correlated_cols(dataframe, plot=False, corr_th=0.90):
     drop_list = [col for col in upper_triangle_matrix.columns if any(upper_triangle_matrix[col] > 0.90)]
 
     if plot:
-        import seaborn as sns
         import matplotlib.pyplot as plt
         sns.set(rc={"figure.figsize": (12, 12)})
         sns.heatmap(corr, cmap="RdBu")
