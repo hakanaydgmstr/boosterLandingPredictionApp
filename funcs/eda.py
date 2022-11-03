@@ -1,12 +1,6 @@
 import numpy as np
 import pandas as pd
 
-from sklearn.neighbors import LocalOutlierFactor
-from sklearn.preprocessing import RobustScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix, classification_report, plot_roc_curve, \
-    mean_squared_error
-from sklearn.model_selection import train_test_split, cross_validate
 #from statsmodels.stats.proportion import proportions_ztest
 
 #pd.set_option("display.max_columns", None)
