@@ -1,12 +1,6 @@
 import numpy as np
 import pandas as pd
 
-from sklearn.neighbors import LocalOutlierFactor
-from sklearn.preprocessing import RobustScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, roc_auc_score, confusion_matrix, classification_report, plot_roc_curve, \
-    mean_squared_error
-from sklearn.model_selection import train_test_split, cross_validate
 #from statsmodels.stats.proportion import proportions_ztest
 
 #pd.set_option("display.max_columns", None)
@@ -126,7 +120,6 @@ def  high_correlated_cols(dataframe, plot=False, corr_th=0.90):
     drop_list = [col for col in upper_triangle_matrix.columns if any(upper_triangle_matrix[col] > 0.90)]
 
     if plot:
-        import matplotlib.pyplot as plt
         sns.set(rc={"figure.figsize": (12, 12)})
         sns.heatmap(corr, cmap="RdBu")
         plt.show()
