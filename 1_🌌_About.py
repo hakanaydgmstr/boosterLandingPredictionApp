@@ -11,7 +11,7 @@ st.sidebar.success("Proje Hakkında Bilgi Sahibi Olmak İçin: https://lnkd.in/d
 st.sidebar.markdown("### İletişim")
 st.sidebar.info("E-Posta: hakan-aydogmus@hotmail.com | "
                 "[LinkedIn](https://www.linkedin.com/in/hakanaydogmus/) | "
-                "[GitHub](https://github.com/hakanaydgmstr)")
+                "[GitHub](https://github.com/hakanaydgmstr/boosterLandingPredictionApp)")
 
 st.write("IBM Data Science Professional Certificate programının bitirme projesine hoş geldiniz! 🎉")
 
