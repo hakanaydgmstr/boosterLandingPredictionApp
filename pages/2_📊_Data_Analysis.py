@@ -14,7 +14,7 @@ st.set_page_config(layout="wide", page_title="Veri Analizi", page_icon="icon/roc
 
 st.title("Veri Analizi 📊")
 
-st.write("Bu sayfada, model için kullanılan veri setini ve veri setindeki değişkenler içi yapılan analizleri "
+st.write("Bu sayfada, model için kullanılan veri setini ve veri setindeki değişkenler için yapılan analizleri "
          "inceleyebilirsiniz. Ek olarak aşağıda bazı önemli değişkenler için çeşitli grafikler de bulunmaktadır.")
 
 df = pd.read_csv("app_data.csv")
