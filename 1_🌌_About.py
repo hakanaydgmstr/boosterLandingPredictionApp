@@ -8,13 +8,7 @@ st.title('🚀 Booster Landing Prediction App')
 st.sidebar.subheader("Hoşgeldiniz! 🎉")
 st.sidebar.info("Uygulamada gezinmek için yukarıdaki alandan bir sayfa seçebilirsiniz 👆")
 st.sidebar.success("Proje Hakkında Bilgi Sahibi Olmak İçin: https://lnkd.in/dXvjMSSg")
-st.sidebar.markdown('### About')
-st.sidebar.info("Merhabalar, ben Hakan. 2022 yılının Ocak ayından itibaren düzenli olarak veri bilimi ve makine öğrenmesi "
-                "alanlarında çalışmalar yapıyorum. Kendimi geliştirmek için bu alanda çeşitli kurslara ve bootcamplere "
-                "katıldım ve katılmaya devam ediyorum. Bu proje de dahil olmak üzere diğer çalışmalarıma GitHub hesabımdan "
-                "ulaşabilirsiniz. İletişim bilgilerime ve projenin Coursera'daki sayfasına sidebar üzerinden "
-                "ulaşabilirsiniz ✨")
-st.sidebar.markdown("### Contact")
+st.sidebar.markdown("### Contact Me")
 st.sidebar.info("E-Mail: hakan-aydogmus@hotmail.com | "
                 "[LinkedIn](https://www.linkedin.com/in/hakanaydogmus/) | "
                 "[GitHub](https://github.com/hakanaydgmstr/boosterLandingPredictionApp)")
@@ -30,11 +24,3 @@ st.write("Bu projede Falcon 9'un ilk aşamasının başarılı bir şekilde inip
 
 img_url = "https://www.spaceflightinsider.com/wp-content/uploads/hangar/header/falcon-9.jpg"
 st.image(img_url)
-
-st.markdown('#')
-
-st.write("Merhabalar, ben Hakan. 2022 yılının Ocak ayından itibaren düzenli olarak veri bilimi ve makine öğrenmesi "
-         "alanlarında çalışmalar yapıyorum. Kendimi geliştirmek için bu alanda çeşitli kurslara ve bootcamplere "
-         "katıldım ve katılmaya devam ediyorum. Bu proje de dahil olmak üzere diğer çalışmalarıma GitHub hesabımdan "
-         "ulaşabilirsiniz. İletişim bilgilerime ve projenin Coursera'daki sayfasına sidebar üzerinden "
-         "ulaşabilirsiniz ✨")
