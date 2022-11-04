@@ -27,11 +27,8 @@ st.image(img_url)
 
 st.markdown('#')
 
-col1, col2 = st.columns(2)
-
-col1.image("profile_pic.jpeg", width=200)
-col2.write("Merhabalar, ben Hakan. 2022 yılının Ocak ayından itibaren düzenli olarak veri bilimi ve makine öğrenmesi "
-           "alanlarında çalışmalar yapıyorum. Kendimi geliştirmek için bu alanda çeşitli kurslara ve bootcamplere "
-           "katıldım ve katılmaya devam ediyorum. Bu proje de dahil olmak üzere diğer çalışmalarıma GitHub hesabımdan "
-           "ulaşabilirsiniz. İletişim bilgilerime ve projenin Coursera'daki sayfasına sidebar üzerinden "
-           "ulaşabilirsiniz ✨")
+st.write("Merhabalar, ben Hakan. 2022 yılının Ocak ayından itibaren düzenli olarak veri bilimi ve makine öğrenmesi "
+         "alanlarında çalışmalar yapıyorum. Kendimi geliştirmek için bu alanda çeşitli kurslara ve bootcamplere "
+         "katıldım ve katılmaya devam ediyorum. Bu proje de dahil olmak üzere diğer çalışmalarıma GitHub hesabımdan "
+         "ulaşabilirsiniz. İletişim bilgilerime ve projenin Coursera'daki sayfasına sidebar üzerinden "
+         "ulaşabilirsiniz ✨")
